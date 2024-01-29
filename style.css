@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+#canvas-container {
+    position: relative;
+}
+
+#paintCanvas {
+    border: 1px solid #000;
+    cursor: crosshair;
+}
+
+#controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#colorPalette {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.color.white {
+    border: 1px solid #000;
+}
